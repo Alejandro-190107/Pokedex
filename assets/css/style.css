@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  background-image: url('https://wallpaperaccess.com/full/3453580.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.8;
+}
+
+nav, footer{
+  background-color: #FFFF00;
+}
+
+.navbar-brand, .far, b{
+  color: black;
+  font-size: 18px;
+  font-style: oblique;
+}
+
+.container {
+  padding: 40px;
+  margin: 0 auto;
+  max-width: 700px;
+  min-height: 500px;
+  text-align: center;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.card-img-top{
+    display: block;
+    margin: auto;
+    max-width: 30%;
+}
+
+h1, p{
+  text-transform: uppercase;
+}
+
+strong, p{
+  font-size: 18px;
+}

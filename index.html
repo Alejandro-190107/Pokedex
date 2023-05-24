@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.3.1/mdb.min.css" rel="stylesheet" />
+        <link href="assets/img/logo.jpg" rel="icon">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <title> Pokedex </title>
+    </head>
+    <body>
+        <header>
+			<nav class="mb-1 navbar navbar-expand-lg navbar-dark default-color">
+			    <a class="navbar-brand" href="index.html"> POKEDEX </a>
+				<img src="assets/img/img-nav.gif" height="60" class="d-inline-block align-top" alt="mdb logo">  
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333" aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+  			</nav>
+		</header>
+
+        <div class="container">
+            <div class="card text-center">
+                
+                <div class="card-body">
+                    <div class="row justify-content-center">
+                        <div class="col-md-12">
+                            <div id="poke-info">
+                                <img src="" class="card-img-top" id="poke-img">
+                               
+                                <div class="card-body">
+                                    <h1 class="card-title" id="poke-name"> </h1>
+                                    <div class="row justify-content-center">
+                                        
+                                        <div class="col-md-6">
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item"><strong> ID: </strong> <p id="poke-id"></p> </li>
+                                                <li class="list-group-item"><strong> Type: </strong> <p id="poke-type"></p> </li>
+                                            </ul>
+                                        </div>
+        
+                                        <div class="col-md-6">
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item"><strong> Abilities: </strong> <p id="poke-abilities"></p> </li>
+                                                <li class="list-group-item"><strong> Species: </strong> <p id="poke-species"></p> </li>
+                                            </ul>
+                                        </div>
+        
+                                    </div>
+                            
+                                </div>
+                                
+                            
+                            </div>
+                        </div>
+                    </div>
+        
+                </div>
+
+                <div class="card-footer text-muted"> <button type="button" onclick="getPokemon()" class="btn btn-dark btn-rounded"> Mostrar Pokémon </button> </div>
+
+            </div>
+        </div>
+
+        <footer class="page-footer font-small blue fixed-bottom">
+			<div class="footer-copyright text-center text-light py-3"> <b><i class="far fa-copyright"></i> 2023 Creado Por Alejandro López</b></div>
+		</footer>
+    
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.3.1/mdb.min.js"></script>
+        <script src="assets/js/main.js"></script>
+    
+    </body>
+</html>
